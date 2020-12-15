@@ -1,4 +1,7 @@
 # Coffee TypeWriter
+
+![typewriter](https://github.com/costabatista/coffee-typewriter/blob/master/img/typewriter.gif)
+
 ## Description
 Coffee TypeWriter is a software made for fun. Its goal is to simulate the sound effect
 experienced by those who had the opportunity to have and use a typewriter.
