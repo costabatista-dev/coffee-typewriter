@@ -45,7 +45,7 @@ java -jar coffee-typewriter.java
 ```` 
 **It is necessary to have Java 1.8 or higher installed and with the configured path.**
 
-**Feel Fre to Use and Enjoy!**
+**Feel Free to Use and Enjoy!**
 
 ![coffee](https://github.com/costabatista/coffee-typewriter/blob/master/img/coffee.gif)
 
