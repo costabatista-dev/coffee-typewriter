@@ -36,9 +36,10 @@ ____________________________________________________
 ### Usage
 The development of the Coffee Typewriter is purely for pleasure. A graphical interface has not yet been created. However, it is possible to make use of the functionality through the command line. Whether on Windows, Linux-based Systems
 and the like, open an interface like Linux Terminal or Windows command prompt and run the following command
-'''
-bash java -jar coffee-typewriter.java
-''' 
+
+```console
+java -jar coffee-typewriter.java
+```` 
 **It is necessary to have Java 1.8 or higher installed and with the configured path.**
 
 
