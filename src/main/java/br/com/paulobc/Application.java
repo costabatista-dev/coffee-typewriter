@@ -5,7 +5,7 @@ import org.jnativehook.NativeHookException;
 
 public class Application {
 	public static void main(String[] args) throws NativeHookException {
-		KeyStrokListener keyStrokListener = new KeyStrokListener();
+		KeyStrokerListener keyStrokListener = new KeyStrokerListener();
 		GlobalScreen.registerNativeHook();
 		GlobalScreen.addNativeKeyListener(keyStrokListener);
 	}
