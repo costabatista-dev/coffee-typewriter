@@ -8,7 +8,8 @@ public class MusicEvent {
 
 	private MP3Player getSongResource(String songFileName) {
 		StringBuilder builder = new StringBuilder();
-		builder.append(System.getProperty("user.dir")).append("\\classes\\song\\").append(songFileName);
+		builder.append(System.getProperty("user.dir")).append(File.separator).append("classes").append(File.separator)
+				.append("song").append(File.separator).append(songFileName);
 		songFileName = builder.toString();
 		System.out.println(songFileName);
 
@@ -16,7 +17,7 @@ public class MusicEvent {
 		resourceFile = new File(songFileName);
 
 		MP3Player songResource = new MP3Player(resourceFile);
- 
+
 		return songResource;
 	}
 
@@ -45,12 +46,11 @@ public class MusicEvent {
 		MP3Player song = this.getSongResource(songFileName);
 		song.play();
 	}
-	
+
 	public void executeForwardKeySong() {
 		String songFileName = "typewriter-forward.mp3";
 		MP3Player song = this.getSongResource(songFileName);
 		song.play();
 	}
-	
 
 }
