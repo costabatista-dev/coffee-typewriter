@@ -3,7 +3,7 @@ package br.com.paulobc;
 import org.jnativehook.keyboard.NativeKeyEvent;
 import org.jnativehook.keyboard.NativeKeyListener;
 
-public class KeyStrokListener implements NativeKeyListener {
+public class KeyStrokerListener implements NativeKeyListener {
 	private boolean isPressedKey;
 
 	public void setIsPressedKey(boolean isPressedKey) {
@@ -14,7 +14,7 @@ public class KeyStrokListener implements NativeKeyListener {
 		return this.isPressedKey;
 	}
 
-	public KeyStrokListener() {
+	public KeyStrokerListener() {
 		this.setIsPressedKey(false);
 	}
 
